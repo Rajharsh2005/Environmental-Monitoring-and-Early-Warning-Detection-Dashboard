@@ -86,7 +86,7 @@ function updateNodeHeaderBadges() {
   const node = AWES_DATA.getActiveNode();
   const badge = document.getElementById('header-node-badge-text');
   if (badge) {
-    badge.textContent = `${node.id} ● ONLINE`;
+    badge.textContent = `${node.id} ● OFFLINE`;
   }
 
   const selector = document.getElementById('global-node-selector');
