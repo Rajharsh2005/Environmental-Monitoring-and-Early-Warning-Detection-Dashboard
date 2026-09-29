@@ -102,6 +102,17 @@ button {
   background: none;
 }
 
+
+/* Offline node status */
+.offline {
+    color: #DC2626 !important;
+}
+
+.offline .status-dot {
+    background-color: #DC2626 !important;
+}
+
+
 /* App Container Layout */
 .app-container {
   display: flex;
@@ -635,4 +646,8 @@ button {
     padding: 4px 8px;
     font-size: 11px;
   }
+
+
+
+   
 }
