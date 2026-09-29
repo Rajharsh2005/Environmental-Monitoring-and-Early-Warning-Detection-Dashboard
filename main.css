@@ -327,6 +327,13 @@ button {
   background-color: #DCFCE7;
   color: #166534;
 }
+.status-pill.offline {
+    background-color: #FEE2E2;
+    color: #DC2626;
+}
+.status-pill.offline .status-dot {
+    background-color: #DC2626;
+}
 
 .status-dot {
   width: 6px;
